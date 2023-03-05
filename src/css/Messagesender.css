@@ -1,0 +1,115 @@
+.messagesender{
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+  
+padding: 15px;
+border-radius: 10px;
+margin-top: 30px;
+box-shadow: 4px 2px 10px #ccc;
+flex-direction: column;
+
+}
+.message-bar{
+    display: flex;
+    align-items: center;
+    
+}
+.message-bar form{
+ /* background-color:whitesmoke; */
+  pad:100px;
+border-radius: 20px;
+margin-left:10px ;
+
+}
+.message-bar form input{
+
+    
+    width: 360%;
+    padding: 5px;
+    border-color: rgb(245, 238, 238);
+    border-radius: 15px;
+
+    background-color: whitesmoke;
+
+}
+
+
+
+
+.message-option{
+    display: flex;
+
+    justify-content: space-between;
+    align-items:baseline;
+    
+    
+
+}
+.message-option--option:hover{
+    position: relative;
+    background-color: whitesmoke;
+  
+
+}
+.modal_pop{
+    top:50%;
+    background-color: white;
+    width:500px;
+    margin:0px auto;
+    position: relative;
+    transform:translateY(-50%);
+    padding: 10px;
+    border-radius:10px;
+
+}
+.modalheading{
+    text-align:center;
+    border-bottom:1px solid lightgrey;
+    height:40px;
+}
+.modalheading .MuiIconButton-root{
+    position: absolute;
+    top:0px;
+    right: 5px;
+}
+.modalHeader-top{
+    display: flex;
+    padding: 15px 0px;
+    align-items: center;
+    
+}
+.modalHeader-top h5{
+    margin-left: 10px;
+
+}
+.modalBody textarea{
+    width:100%;
+    min-height: 100px;
+    border-bottom: 2px;
+    font-size: 25px;
+    outline: 0;
+    padding-top:10px 0px;
+    letter-spacing: 1px;
+    font-family:sans-serif ;
+}
+.modalFooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border:1px solid lightgray;
+    margin-bottom: 0px 10px ;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+.post_submit{
+    width: 100%;
+    background-color:#2391fa ;
+    padding: 10px 20px;
+    color:#fff;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-size: 16px;
+
+}

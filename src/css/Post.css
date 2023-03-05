@@ -1,0 +1,30 @@
+.post {
+  margin-top: 15px;
+}
+.postings {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  margin: auto;
+  margin-left: 10px;
+}
+.postings h5 {
+  float: inline-start;
+}
+.post-info {
+  display: flex;
+}
+.post-middle {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.post-bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+.post-bottom-option {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

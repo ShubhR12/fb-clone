@@ -1,0 +1,14 @@
+.widget{
+  margin-top: 20px;
+  margin-right: 10px;
+
+  height: 150vh;
+  position: sticky;
+  top: 0;
+
+}
+.widget__bodyOptions{
+    display: flex;
+  flex-direction: row;
+  margin-left: 10%;
+}
